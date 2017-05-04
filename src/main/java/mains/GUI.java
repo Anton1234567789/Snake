@@ -127,6 +127,6 @@ public class GUI{
         /*
          * Белый фоновый цвет
          */
-        glClearColor(0.1F,0.1F,0.1F,0.5F);
+        glClearColor(0.1F,0.1F,0.1F,0.4F);
     }
 }

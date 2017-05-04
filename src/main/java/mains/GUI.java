@@ -15,7 +15,8 @@ import static org.lwjgl.opengl.GL11.*;
 
 public class GUI{
     ///CELLS_COUNT_X и CELLS_COUNT_Y -- константы
-    //Cell -- класс, который реализует main.GUIElement; им займёмся немного позже
+    //Cell -- класс, который реализует mains.GUIElement;
+
     private static Cell[][] cells;
 
 
@@ -112,6 +113,7 @@ public class GUI{
 
         /*
          * Для поддержки текстур
+         * Можно так же использовать 1D
          */
         glEnable(GL_TEXTURE_2D);
 
@@ -125,6 +127,6 @@ public class GUI{
         /*
          * Белый фоновый цвет
          */
-        glClearColor(1,1,1,1);
+        glClearColor(0.1F,0.1F,0.1F,0.5F);
     }
 }

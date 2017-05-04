@@ -2,8 +2,8 @@ package mains;
 
 import static mains.Constants.CELL_SIZE;
 
-public class Cell{
 
+public class Cell{
 
     private int x;
     private int y;
@@ -20,7 +20,6 @@ public class Cell{
         this.state=state;
     }
 
-    ///==== Ничем не примечательные геттеры и сеттеры
 
     public int getX(){
         return x;
@@ -45,8 +44,6 @@ public class Cell{
     public void setState(int state){
         this.state = state;
     }
-
-    ///====
 
     ///Метод обновления клетки. Уменьшаем время "горения", если это необходимо
     public void update(boolean have_to_decrease){

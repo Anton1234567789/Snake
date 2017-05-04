@@ -6,14 +6,14 @@ package mains;
 public class Constants {
     public static final int CELL_SIZE = 32;
 
-    public static final int CELLS_COUNT_X = 20;
+    public static final int CELLS_COUNT_X = 30;
     public static final int CELLS_COUNT_Y = 20;
 
-    public static final float INITIAL_SPAWN_CHANCE = 0.05F;//%
+    public static final float INITIAL_SPAWN_CHANCE = 2.0F;//%
 
-    public static final int FPS = 5;
+    public static final int FPS = 10;
 
     public static final int SCREEN_WIDTH =CELLS_COUNT_X*CELL_SIZE;
     public static final int SCREEN_HEIGHT = CELLS_COUNT_Y*CELL_SIZE;
-    public static final String SCREEN_NAME = "Tproger's Snake";
+    public static final String SCREEN_NAME = "Sokolov Snake";
 }

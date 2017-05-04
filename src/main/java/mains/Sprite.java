@@ -10,7 +10,7 @@ import java.io.IOException;
 
 public enum Sprite {
 
-    BODY("circle"), CHERRIES("cherries");
+    BODY("potion"), CHERRIES("apple");
 
     private Texture texture;
 

@@ -1,12 +1,10 @@
 package mains;
 
 
-        import org.lwjgl.input.Keyboard;
-        import org.lwjgl.opengl.Display;
-
-        import java.util.Random;
-
-        import static mains.Constants.*;
+import org.lwjgl.input.Keyboard;
+import org.lwjgl.opengl.Display;
+import java.util.Random;
+import static mains.Constants.*;
 
 
 public class Main {
@@ -22,7 +20,7 @@ public class Main {
     private  static boolean have_to_decrease = true;
 
     ///Входной класс
-    public  static  void main(String[] args) {
+    public static void main(String[] args) {
         GUI.init();
         generate_new_obj();
 
@@ -33,7 +31,6 @@ public class Main {
 
             GUI.draw();
             GUI.update(have_to_decrease);
-
         }
     }
 
